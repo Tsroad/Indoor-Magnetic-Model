@@ -9,4 +9,4 @@
 
 @contact : cztsiang@gmail.com & t.s.road@bk.ru
 
-@references : UKF在MagSLAM模型中的应用-tsroad-20151010
+@references : 2204室内地磁场回归分析-tsroad-20151010

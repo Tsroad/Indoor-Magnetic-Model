@@ -1,4 +1,3 @@
-%%  Indoor Geomagnetic Model
 % @file "GeomagneticModel.m"
 % @authors Keung Charteris or T.s.road CZQ
 % @version 1.0 ($Revision$)

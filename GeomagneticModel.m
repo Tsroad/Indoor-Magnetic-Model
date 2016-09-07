@@ -39,7 +39,6 @@ figure
 title('Map--(15参)');
 xlabel('横向网格');ylabel('纵向网格');zlabel('磁场强度/uT');
 contourf(x,y,z15);
-% shading interp;
 colorbar;
 
 figure

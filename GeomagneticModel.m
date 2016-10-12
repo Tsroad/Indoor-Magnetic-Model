@@ -9,6 +9,7 @@
 % unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 
 
 function [coefficient,z15]=BuildMagneticModel(GridLength,GridWidth,MeasureData)
+
 %   BUILDMAGNETICMODEL Build Geomagnetic Model.
 %   BuildMagneticModel(GridLength,GridWidth,ModelFull) reads data from
 %   GridLength---------------------------------Map field length
@@ -22,7 +23,6 @@ y=MeasureData(:,2);
 
 X=[ones(size(MeasureData))  x  y  x.^2  x.*y  y.^2 ...
        x.^3   x.^2.*y  x.*y.^2   y.^3  x.^4  x.^3.*y  x.^2.*y.^2   x.*y.^3  y.^4 ];
-
 [coefficient,bint] = regress(MeasureData(:,3),X);
 
 xa = 0:0.1:GridLength;
